@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+    <img src="Logo.png" alt="Logo Panadería Zacatlán" width="150px">
+    <h1>¿Qué deseas comer hoy?</h1>
+    <form action="mi_servidor" autocomplete="off">
+        <fieldset>
+           <legend>Pedido</legend> 
+
+            <label for="nombre">Nombre:</label><br/>
+            <input  type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"/><br/>
+            <label for="apellido">Apellido:</label><br/>
+            <input  type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true"/><br/>
+            <label for="email">E-mail</label><br/>
+            <input type="email" id="email" name="email" placeholder="Escribe tu correo" required="true"/><br/>
+
+
+            <label>Elige tus sabores para el pastel</label><br/>
+            <input type="checkbox" id="durazno" name="durazno" value="durazno"/>
+            <label for="durazno">Durazno</label><br/>
+            <input type="checkbox" id="Chocomenta" name="Chocomenta" value="Chocomenta"/>
+            <label for="Chocomenta">Chocomenta</label><br/>
+            <input type="checkbox" id="Trufa" name="Trufa" value="Trufa"/>
+            <label for="Trufa">Trufa</label><br/>
+            <input type="checkbox" id="Chocomenta" name="Chocomenta" value="Chocomenta"/>
+            <label for="Chocomenta">Chocomenta</label><br/>
+            <input type="checkbox" id="Rompope" name="Rompope" value="Rompope"/>
+            <label for="Rompope">Rompope</label><br/>
+            <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla"/>
+            <label for="Vainilla">Vainilla</label><br/>
+            <input type="checkbox" id="Piñón" name="Piñón" value="Piñón"/>
+            <label for="Piñón">Piñón</label><br/>
+            <input type="checkbox" id="Frutos rojos" name="Frutos rojos" value="Frutos rojos"/>
+            <label for="Frutos rojos">Frutos rojos</label><br/>
+            <input type="checkbox" id="Tres leches" name="Tres leches" value="Tres leches"/>
+            <label for="Tres leches">Tres leches</label><br/>
+
+            <label>Elige tus sabores para el pastel</label><br/>
+            <input type="checkbox" id="Vela número" name="Vela número" value="Vela número"/>
+            <label for="Vela número">Vela número</label><br/>
+            <input type="checkbox" id="Escritura" name="Escritura" value="Escritura"/>
+            <label for="Escritura">Escritura</label><br/>
+            <input type="checkbox" id="Vela corazón" name="Vela corazón" value="Vela corazón"/>
+            <label for="Vela corazón">Vela corazón</label><br/>
+            <input type="checkbox" id="Vela pareja" name="Vela pareja" value="Vela pareja"/>
+            <label for="Vela pareja">Vela pareja</label><br/>
+            <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla"/>
+            <label for="Vainilla">Vainilla</label><br/>
+            <input type="checkbox" id="Vela chispas" name="Vela chispas" value="Vela chispas"/>
+            <label for="Vela chispas">Vela chispas</label><br/>
+            <input type="checkbox" id="Vela Personalizada" name="Vela Personalizada" value="Vela Personalizada"/>
+            <label for="Vela Personalizada">Vela Personalizada</label><br/>
+
+
+            <label for="comentario">Si tienes alguna petición adicional, favor de agregarla en el siguiente cuadro de texto:</label><br/>
+            <textarea id="comentario" name="comentario" rows="2" cols="30">           
+            </textarea>
+            <br>
+            <input type="reset" value="restablecer">
+
+            
+            <input type="submit" value="Enviar"/>
+     </fieldset>
+</form>
+<br>
+<form>
+    <a href="/index.html"><input type="button" name="inicio" id="inicio" value="Vuelve al inicio"></a>
+</form>
+</body>
+</html>
